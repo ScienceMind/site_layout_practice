@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section{
+    background-image: url("/img/radu-florin-CwTBt6jyagQ-unsplash\ 1.png");
+}
