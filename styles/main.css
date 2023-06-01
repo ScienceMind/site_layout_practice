@@ -15,12 +15,21 @@ ol, ul{
     list-style: none;
 }
 
+h3{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 24px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
 /***** main and null styles end *****/
 
 
 /**** header styles start ****/
 header{
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,8 +40,8 @@ header{
 }
 
 .logo img {
-    width: 80px;
-    height: 25px;
+    width: 100px;
+    height: 30px;
 }
 
 /*** navigation styles start ***/
@@ -49,7 +58,7 @@ header{
 
 .navigation-list-container li a {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     outline: none;
     text-decoration: none;
@@ -77,6 +86,7 @@ header{
 }
 
 .sign-in-button{
+    font-size: 22px;
     margin-right: 35px;
     transition: border-bottom 3s ease;
 }
@@ -86,11 +96,12 @@ header{
 }
 
 .green-button{
-    width: 180px;
-    height: 50px;
+    width: 185px;
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 22px;
     color: #ffffff;
     background-color: #01996D;
     border: 1px solid #01996D;
@@ -108,7 +119,7 @@ header{
 
 /**** main content styles start ****/
 main{
-    width: 1920px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,12 +128,140 @@ main{
 
 /*** section styles start ***/
 
-.first-section {
-    background: no-repeat center/100% url(/img/radu-florin-CwTBt6jyagQ-unsplash\ 1.png);
-    display: block;
+/** first section styles start **/
+.section-container-1 {
     width: 100%;
-    height: 895px;
+    /* background: no-repeat center/100% url(/img/radu-florin-CwTBt6jyagQ-unsplash\ 1.png); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.section-container-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.first-section {
+    width: 100%;
+    max-width: 1920px;
+    position: absolute;
+}
+
+.tagline{
+    font-family: Georgia;
+    font-size: 60px;
+    font-weight: 700;
+    color: #01996D;
+}
+
+.tagline-1{
+    margin-top: 175px;
+}
+
+.text-paragraph{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.text-paragraph-1-sec1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#button-find-your-way{
+    width: 230px;
+    height: 70px;
+}
+/** first section styles end **/
+
+/** second section styles start **/
+.section-container-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-section{
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 170px;
+}
+
+.tagline-and-paragraph-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-paragraph-1-sec2{
+    width: 670px;
+    margin-left: 135px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-container{
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.card-container .text-paragraph {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.card-container-1{
+    margin-top: 100px;
+}
+
+.card-container-2{
+    margin-top: 300px;
+}
+
+.card-container-3{
+    margin-top: 180px;
+}
+
+.num-name-container{
+    /* display: flex;
+    flex-direction: row; */
+    /* flex-wrap: wrap-reverse; */
+    position: relative;
+}
+
+.num{
+    color: #01996D33;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 150px;
+    opacity: 80%;
+}
+
+.name{
+    color: #000;
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+
+/** second section styles end **/
 
 /*** section styles end ***/
 
